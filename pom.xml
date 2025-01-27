@@ -89,6 +89,7 @@
       <groupId>io.qameta.allure</groupId>
       <artifactId>allure-junit4</artifactId>
       <version>2.27.0</version>
+      <scope>test</scope>
     </dependency>
     <dependency>
       <!-- модуль взаимодействия Allure и RestAssured -->
@@ -96,11 +97,11 @@
       <artifactId>allure-rest-assured</artifactId>
       <version>2.27.0</version>
     </dependency>
-    <dependency>
-      <groupId>io.qameta.allure</groupId>
-      <artifactId>allure-junit4</artifactId>
-      <version>2.27.0</version>
-      <scope>test</scope>
-    </dependency>
+<!--    <dependency>-->
+<!--      <groupId>io.qameta.allure</groupId>-->
+<!--      <artifactId>allure-junit4</artifactId>-->
+<!--      <version>2.27.0</version>-->
+<!--      <scope>test</scope>-->
+<!--    </dependency>-->
   </dependencies>
 </project>
